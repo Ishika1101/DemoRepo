@@ -18,7 +18,7 @@ namespace ProductManagement.Controllers
         [HttpPost]
         [Route("/AddCategory")]
 
-        public async Task<IActionResult> AddCategory([FromBody] Category category)
+        public async Task<IActionResult> postCategory([FromBody] Category category)
         {
 
             try
